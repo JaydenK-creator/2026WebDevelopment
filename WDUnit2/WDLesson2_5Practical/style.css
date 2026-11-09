@@ -1,23 +1,73 @@
 /* Challenge 8: Change the type of font to Arial for all elements */
+* {
+  font-family: Arial, sans-serif;
+  transition: all 1s ease;
+}
 
-/* Challenge 9: Change the background color for all elements with a class of banner.  Choose a color
-                using rgb( )
-*/
+/* Challenge 9: Change the background color for all elements with a class of banner. Choose a color using rgb( ) */
+#banner {
+  background-color: rgb(51, 255, 0);
+}
 
-/* Challenge 10: Change the background color for all elements with a class of subbanner.  Choose a color
-                using a hexdecimal value. 
-*/
+/* Challenge 10: Change the background color for all elements with a class of subbanner. Choose a color using a hexadecimal value. */
+.subbanner {
+  background-color: #00eefff8;
+}
 
-/* Challenge 11: Change the radius of the border to 6px and height to 200px for all images inside of all 
-                 elements with a class of gallery 
-*/
+/* Challenge 11: Change the radius of the border to 6px and height to 200px for all images inside of all elements with a class of gallery */
+.gallery img {
+  border-radius: 6px;
+  height: 300px;
+}
 
-/* Challenge 12: When the visitor moves their mouse over images inside of the element with an id of firstGallery,
-                 apply some type of styling using the filter( ) effect
-*/
+/* Challenge 12: When the visitor moves their mouse over images inside of the element with an id of firstGallery, apply some type of styling using the filter( ) effect */
+#firstGallery img:hover {
+  filter: grayscale(100%);
+}
 
-/* Challenge 13: When the visitor moves their mouse over images inside of the element with an id of secondGallery,
-                 apply some other type of styling.
-*/
+/* Challenge 13: When the visitor moves their mouse over images inside of the element with an id of secondGallery, apply some other type of styling. */
+#secondGallery img:hover {
+  filter: blur(2px);
+}
 
 /* Challenge 14: Change the transition for all elements to 1 second */
+* {
+  transition: all 1s;
+}
+
+h1 { text-align: center; }
+P { text-align: center; }
+p{ font-size: 20px; }
+h3{ text-align: center; }
+p{font-family: "Anton", sans-serif; font-size: 20px; }
+h1{font-family: "Caveat", cursive; font-size: 50px; }
+h3{font-family: "DynaPuff", system-ui; font-size: 30px; }
+
+
+
+
+
+
+
+
+.dynapuff-regular {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.caveat-regular {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
