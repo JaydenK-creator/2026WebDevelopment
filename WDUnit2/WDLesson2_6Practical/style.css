@@ -1,5 +1,7 @@
 nav ul {
-  padding: 5px;
+  padding: 15px;
+  text-align: center;
+  text-decoration:bold;
 }
 
 nav li {
